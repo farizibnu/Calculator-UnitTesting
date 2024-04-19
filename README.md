@@ -1,5 +1,5 @@
 # Calculator App
-**Deskripsi**
+##Deskripsi
 Aplikasi Calculator Sederhana adalah sebuah program kalkulator sederhana yang dapat melakukan operasi aritmatika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian.
 
 **Fitur**
