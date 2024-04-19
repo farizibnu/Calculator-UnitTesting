@@ -34,3 +34,6 @@ Jalankan command berikut pada terminal
 ```
 
 ## Contoh Penggunaan
+
+## Test Report
+Report dari test automation yang telah dijalankan terdapat pada `build/reports/index.html`
