@@ -11,7 +11,7 @@ Aplikasi Calculator Sederhana adalah sebuah program kalkulator sederhana yang da
 ## Cara Menggunakan
 1. Unduh repository ini atau clone menggunakan perintah git clone.
 2. Buka project calculator menggunakan Java IDE seperti IntelliJ IDEA atau Eclipse.
-3. Jalankan program melalui IDE tersebut dengan klik kanan pada file src>main>java>CalculatorApp.java, lalu tekan Run Java
+3. Jalankan program melalui IDE tersebut dengan klik kanan pada file `src>main>java>CalculatorApp.java`, lalu tekan Run Java
 4. Ikuti petunjuk untuk memasukkan dua bilangan dan pilih operasi yang diinginkan.
 5. Hasil akan ditampilkan di layar.
 
