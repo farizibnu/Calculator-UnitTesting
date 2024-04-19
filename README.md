@@ -33,7 +33,7 @@ Jalankan command berikut pada terminal
 ```
 ./gradlew clean test
 ```
-2. Untuk method tertentu<br>
+2. Untuk suatu method tertentu<br>
 Jalankan command berikut pada terminal
 ```
 ./gradlew test --tests namaclass.namamethod
