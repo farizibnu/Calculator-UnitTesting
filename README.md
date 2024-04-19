@@ -28,12 +28,12 @@ Test automation adalah proses pengujian secara otomatis yang dilakukan pada pera
 2. Pastikan Gradle sudah terinstal di komputer Anda.
 
 ## Cara Menggunakan
-** Untuk keseluruhan project
+** Untuk keseluruhan project **
 Jalankan command berikut pada terminal
 ```
 ./gradlew clean test
 ```
-** Untuk method tertentu
+** Untuk method tertentu **
 Jalankan command berikut pada terminal
 ```
 ./gradlew test --tests namaclass.namamethod
