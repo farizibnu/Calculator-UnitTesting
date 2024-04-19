@@ -1,0 +1,11 @@
+	
+6Invalid operator. Supported operators are +, -, *, /
+	
+Enter operator (+, -, *, /): 	HInvalid input. Please enter an integer value between -32768 and 32767.
+	eEnter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+	Enter a valid integer value: 	HInvalid input. Please enter an integer value between -32768 and 32767.
+	eEnter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+	Enter a valid integer value: 	HInvalid input. Please enter an integer value between -32768 and 32767.
+	eEnter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+	Enter a valid integer value: 	6Invalid operator. Supported operators are +, -, *, /
+	Enter operator (+, -, *, /): 

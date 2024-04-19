@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="InputValidatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-04-19T12:37:09" hostname="MSI" time="0.031">
+  <properties/>
+  <testcase name="testGetValidOperatorWithValidInput()" classname="InputValidatorTest" time="0.003"/>
+  <testcase name="testGetValidOperatorWithInvalidInput()" classname="InputValidatorTest" time="0.005"/>
+  <testcase name="testCheckDivisionByZero()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithInvalidCombinationInput()" classname="InputValidatorTest" time="0.008"/>
+  <testcase name="testGetValidIntegerWithNonIntegerInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithValidInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testCheckDivisionByNonZero()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithOutOfRangeInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidOperatorWithInvalidThenValidInput()" classname="InputValidatorTest" time="0.001"/>
+  <system-out><![CDATA[Invalid operator. Supported operators are +, -, *, /
+Enter operator (+, -, *, /): Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid input. Please enter an integer value between -32768 and 32767.
+Enter a valid integer value: Invalid operator. Supported operators are +, -, *, /
+Enter operator (+, -, *, /): ]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
