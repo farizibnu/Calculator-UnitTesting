@@ -17,26 +17,26 @@ public class InputValidatorTest {
 
     @Test
     public void testGetValidIntegerWithOutOfRangeInput() {
-        String input = "99999\n";
+        String input = "99999\n3\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Scanner scanner = new Scanner(in);
-        assertThrows(NoSuchElementException.class, () -> InputValidator.getValidInteger(scanner));
+        assertEquals(3, InputValidator.getValidInteger(scanner));
     }
 
     @Test
     public void testGetValidIntegerWithNonIntegerInput() {
-        String input = "A\n";
+        String input = "A\n3\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Scanner scanner = new Scanner(in);
-        assertThrows(NoSuchElementException.class, () -> InputValidator.getValidInteger(scanner));
+        assertEquals(3, InputValidator.getValidInteger(scanner));
     }
 
     @Test
     public void testGetValidIntegerWithInvalidCombinationInput() {
-        String input = "A99999\n";
+        String input = "A99999\n3\n";
         InputStream in = new ByteArrayInputStream(input.getBytes());
         Scanner scanner = new Scanner(in);
-        assertThrows(NoSuchElementException.class, () -> InputValidator.getValidInteger(scanner));
+        assertEquals(3, InputValidator.getValidInteger(scanner));
     }
 
     @Test
