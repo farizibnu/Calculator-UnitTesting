@@ -9,8 +9,7 @@ public class CalculatorApp {
 
         System.out.print("Enter second operand: ");
         float operand2 = InputValidator.getValidInteger(scanner);
-
-        // Consume the newline character
+        
         scanner.nextLine();
 
         System.out.print("Choose an operator (+, -, *, /): ");
