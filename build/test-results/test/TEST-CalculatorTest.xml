@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="CalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-04-19T12:37:09" hostname="MSI" time="0.038">
+<testsuite name="CalculatorTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2024-04-20T02:43:09" hostname="SALMAA" time="0.012">
   <properties/>
-  <testcase name="testInvalidOperator()" classname="CalculatorTest" time="0.031"/>
-  <testcase name="testMultiplication()" classname="CalculatorTest" time="0.002"/>
+  <testcase name="testInvalidOperator()" classname="CalculatorTest" time="0.004"/>
+  <testcase name="testMultiplication()" classname="CalculatorTest" time="0.001"/>
   <testcase name="testAddition()" classname="CalculatorTest" time="0.001"/>
-  <testcase name="testDivisionByZero()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="testDivisionByZero()" classname="CalculatorTest" time="0.002"/>
   <testcase name="testDivision()" classname="CalculatorTest" time="0.001"/>
   <testcase name="testSubtraction()" classname="CalculatorTest" time="0.001"/>
   <system-out><![CDATA[]]></system-out>
