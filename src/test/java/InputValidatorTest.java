@@ -72,4 +72,52 @@ public class InputValidatorTest {
     public void testCheckDivisionByNonZero() {
         assertDoesNotThrow(() -> InputValidator.checkDivisionByZero('/', 5));
     }
+
+    @Test
+    public void testGetValidOperatorWithMultipleInvalidThenValidInput() {
+        String input = "!\n@\n+\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals('+', InputValidator.getValidOperator(scanner));
+    }
+
+    @Test
+    public void testGetValidIntegerWithInvalidRangeInput() {
+        String input = "100000\n35789\n3\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals(3, InputValidator.getValidInteger(scanner));
+    }
+
+    @Test
+    public void testGetValidIntegerWithMixedInput() {
+        String input = "100000\n35789\nA\n3\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals(3, InputValidator.getValidInteger(scanner));
+    }
+
+    @Test
+    public void testGetValidIntegerWithNonIntegerInputReapeted() {
+        String input = "A\nB\n3\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals(3, InputValidator.getValidInteger(scanner));
+    }
+    
+    @Test
+    public void testGetValidIntegerWithInvalidRangeAndNonIntegerInput() {
+        String input = "A\nB\n35789\n3\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals(3, InputValidator.getValidInteger(scanner));
+    }
+
+    @Test
+    public void testGetValidIntegerWithInvalidAndOutOfRangeInput() {
+        String input = "A\n99999\n35789\n3\n";
+        InputStream in = new ByteArrayInputStream(input.getBytes());
+        Scanner scanner = new Scanner(in);
+        assertEquals(3, InputValidator.getValidInteger(scanner));
+    }
 }
