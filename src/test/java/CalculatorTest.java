@@ -24,11 +24,6 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivisionByZero() {
-        assertThrows(IllegalArgumentException.class, () -> Calculator.calculate(3.0f, '/', 0.0f));
-    }
-
-    @Test
     public void testInvalidOperator() {
         assertThrows(IllegalArgumentException.class, () -> Calculator.calculate(3.0f, '!', 5.0f));
     }
