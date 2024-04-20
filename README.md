@@ -16,7 +16,7 @@ Aplikasi Calculator Sederhana adalah sebuah program kalkulator sederhana yang da
 ## Cara Menggunakan
 1. Unduh repository ini atau clone repository dengan perintah git clone
     ```
-   git clone git clone https://github.com/farizibnu/Calculator-UnitTesting.git
+   git clone https://github.com/farizibnu/Calculator-UnitTesting.git
    ```
 3. Buka project calculator menggunakan Java IDE seperti IntelliJ IDEA atau Eclipse.
 4. Jalankan program melalui IDE tersebut dengan klik kanan pada file `src>main>java>CalculatorApp.java`, lalu tekan Run Java
