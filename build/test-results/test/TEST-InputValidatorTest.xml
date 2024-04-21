@@ -1,15 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="InputValidatorTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2024-04-20T02:43:09" hostname="SALMAA" time="0.023">
+<testsuite name="InputValidatorTest" tests="15" skipped="0" failures="0" errors="0" timestamp="2024-04-21T15:56:30" hostname="MSI" time="0.028">
   <properties/>
   <testcase name="testGetValidOperatorWithValidInput()" classname="InputValidatorTest" time="0.001"/>
   <testcase name="testGetValidOperatorWithInvalidInput()" classname="InputValidatorTest" time="0.002"/>
   <testcase name="testCheckDivisionByZero()" classname="InputValidatorTest" time="0.001"/>
-  <testcase name="testGetValidIntegerWithInvalidCombinationInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithInvalidCombinationInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidIntegerWithInvalidRangeAndNonIntegerInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithInvalidRangeInput()" classname="InputValidatorTest" time="0.002"/>
   <testcase name="testGetValidIntegerWithNonIntegerInput()" classname="InputValidatorTest" time="0.002"/>
-  <testcase name="testGetValidIntegerWithValidInput()" classname="InputValidatorTest" time="0.003"/>
-  <testcase name="testCheckDivisionByNonZero()" classname="InputValidatorTest" time="0.002"/>
-  <testcase name="testGetValidIntegerWithOutOfRangeInput()" classname="InputValidatorTest" time="0.002"/>
-  <testcase name="testGetValidOperatorWithInvalidThenValidInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidOperatorWithMultipleInvalidThenValidInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidIntegerWithValidInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidIntegerWithInvalidAndOutOfRangeInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testCheckDivisionByNonZero()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidIntegerWithMixedInput()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidIntegerWithOutOfRangeInput()" classname="InputValidatorTest" time="0.001"/>
+  <testcase name="testGetValidIntegerWithNonIntegerInputReapeted()" classname="InputValidatorTest" time="0.002"/>
+  <testcase name="testGetValidOperatorWithInvalidThenValidInput()" classname="InputValidatorTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
