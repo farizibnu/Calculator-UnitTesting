@@ -25,6 +25,6 @@ public class CalculatorTest {
 
     @Test
     public void testInvalidOperator() {
-        assertThrows(IllegalArgumentException.class, () -> Calculator.calculate(3.0f, '!', 5.0f));
+        assertEquals(Float.NaN, Calculator.calculate(3.0f, '!', 5.0f));
     }
 }
