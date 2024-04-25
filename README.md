@@ -185,11 +185,11 @@ Untuk melihat hasil report dari test automation yang telah dijalankan akan tersi
 ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/069395b1-82f4-4b1e-9de8-095b5b912a02)
 
 Berikut ini rincian hasil pengujian untuk seluruh test cases pada setiap classes:
-- Class CalculatorAppTest
+- Class CalculatorAppTest<br>
 ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/4f9c72be-062f-41bb-b749-31a844c144a2)
-- Class CalculatorTest
+- Class CalculatorTest<br>
 ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/5388903e-e60e-4d64-9cdb-6bee117691c9)
-- Class InputValidatorTest
+- Class InputValidatorTest<br>
 ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/2775f01e-1645-409a-848c-da6e71511d89)
 
 ## Author
