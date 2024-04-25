@@ -154,12 +154,48 @@ Terdapat 2 cara untuk menjalankan automation test
      ```
     
 ## Test Report
-Untuk melihat hasil report dari test automation yang telah dijalankan akan tersimpan pada direktori berikut `build>reports>tests>test>index.html`
+Test report adalah laporan yang dihasilkan setelah menjalankan serangkaian pengujian pada suatu perangkat lunak. Test report memberikan ringkasan tentang hasil pengujian yang dilakukan. Ini mencakup informasi tentang tes mana yang berhasil, tes mana yang gagal, serta hasilnya dalam berbagai format yang dapat membantu pengembang dalam menganalisis kinerja dan keandalan perangkat lunak mereka.
+
+Untuk melihat hasil report dari test automation yang telah dijalankan akan tersimpan pada direktori berikut:
+```
+├─ build
+│  ├─ generated
+│  ├─ reports
+│  │  └─ tests
+│  │     └─ test
+│  │        ├─ classes
+│  │        ├─ css
+│  │        ├─ index.html
+```
 
 ### Contoh Hasil Test Report
 ![Screenshot 2024-04-21 201427](https://github.com/farizibnu/Calculator-UnitTesting/assets/95133669/368de6be-d1fa-4945-9f00-e490d381cb6c)
 
+**Penjelasan**
+- Pada Test Summary, terdapat jumlah tests, failures, ignored, duration, dan persentase keberhasilan test yang dilakukan pada project.
+![alt text](image-1.png)
+
+- Dibawahnya terdapat rincian mengenai test case yang dilakukan pada packages dan classes tertentu
+   - Packages
+   ![alt text](image.png)
+   - Classes
+   ![alt text](image-2.png)
+
+- Pada setiap classes, terdapat nama, duration, dan status pengujian dari setiap test cases
+![alt text](image-3.png)
+
+Berikut ini rincian hasil pengujian untuk seluruh test cases pada setiap classes:
+- Class CalculatorAppTest
+![alt text](image-4.png)
+- Class CalculatorTest
+![alt text](image-5.png)
+- Class InputValidatorTest
+![alt text](image-6.png)
+
 ## Author
-1. Fariz Muhamad Ibnu Hisyam | 211524010
-2. Salma Edyna Putri | 211524025
-3. Tabitha Salsabila Permana | 211524028
+1. 211524010 | Fariz Muhamad Ibnu Hisyam | [@farizibnu](https://github.com/farizibnu)
+2. 211524025 | Salma Edyna Putri | [@salmaep](https://github.com/salmaep)
+3. 211524028 | Tabitha Salsabila Permana | [@Tabitha2912](https://github.com/Tabitha2912)
+
+## Referensi
+https://docs.gradle.org/current/userguide/java_testing.html 
