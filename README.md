@@ -173,24 +173,24 @@ Untuk melihat hasil report dari test automation yang telah dijalankan akan tersi
 
 **Penjelasan**
 - Pada Test Summary, terdapat jumlah tests, failures, ignored, duration, dan persentase keberhasilan test yang dilakukan pada project.
-![alt text](image-1.png)
+![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/1d940ab9-d5cc-4a79-adef-b84ff4dea537)
 
 - Dibawahnya terdapat rincian mengenai test case yang dilakukan pada packages dan classes tertentu
    - Packages
-   ![alt text](image.png)
+   ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/9dd82a9e-938f-4689-9a15-b43421d64d3f)
    - Classes
-   ![alt text](image-2.png)
+   ![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/13aaa5cf-187e-4d54-b863-44ac356c0b21)
 
 - Pada setiap classes, terdapat nama, duration, dan status pengujian dari setiap test cases
-![alt text](image-3.png)
+![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/069395b1-82f4-4b1e-9de8-095b5b912a02)
 
 Berikut ini rincian hasil pengujian untuk seluruh test cases pada setiap classes:
 - Class CalculatorAppTest
-![alt text](image-4.png)
+![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/4f9c72be-062f-41bb-b749-31a844c144a2)
 - Class CalculatorTest
-![alt text](image-5.png)
+![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/5388903e-e60e-4d64-9cdb-6bee117691c9)
 - Class InputValidatorTest
-![alt text](image-6.png)
+![image](https://github.com/farizibnu/Calculator-UnitTesting/assets/95272531/2775f01e-1645-409a-848c-da6e71511d89)
 
 ## Author
 1. 211524010 | Fariz Muhamad Ibnu Hisyam | [@farizibnu](https://github.com/farizibnu)
